@@ -26,6 +26,8 @@ public class App {
       System.out.println("velocidade média = "+velocidadeMedia+"m/s");
       double forcaElastica = fc.forcaElastica(constante, deformacao);
       System.out.println("força elástica = "+forcaElastica+"N");
+      double mru = fc.mru(distancia, tempo);
+      System.out.println("mru = "+mru+"m/s");
       double mruv = fc.mruv(distanciaInicial, velocidadeInicial,time, aceleracao);
       System.out.println("distância = "+mruv+"metros");
        

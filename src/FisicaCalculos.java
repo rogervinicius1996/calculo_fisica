@@ -15,6 +15,9 @@ public class FisicaCalculos {
     public double velocidadeMedia(double d, double t){
         return d / t;
     }
+    public double mru(double d, double t){
+        return d / t;
+    }
     public double mruv(double di, double vo, double t, double a){
         return di + (vo * t) + (a * Math.pow(t,2)) /2;
     }
